@@ -4,4 +4,27 @@
         grid-template-columns: repeat(3, 1fr);
         gap: var(--spacing-sm);
     }
+    .category {
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color: var(--color-secondary);
+        h4 {
+            margin: 0;
+        }
+    }
+    .category__media {
+        img {
+            display: block;
+            width: 80%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .category__content {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 12px;
+    }
 }
