@@ -19,13 +19,25 @@
   <body data-component="Scrolly">
     <header class="header" data-component="Header">
       <div class="wrapper">
-        <nav>
-          <ul><li>
-
-          </li></ul>
-        </nav>
-        <a class="button js-toggle">
-                menu burger
+        <a href="index.html" class="header__brand">
+          <svg class="icon">
+              <use href="#icon-iconName"></use>
+          </svg>
+          logo
         </a>
+        <nav class="nav-primary">
+          <ul>
+            <li class="nav-primary__item"><a href=""> Menu1 </a></li>
+            <li class="nav-primary__item"><a href=""> Menu2 </a></li>
+            <li class="nav-primary__item"><a href=""> Menu3 </a></li>
+            <li class="nav-primary__item"><a href=""> Menu4 </a></li>
+        </ul>
+        </nav>
+
+        <button class="header__toggle js-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
       </div>
     </header>
