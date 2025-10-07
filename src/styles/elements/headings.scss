@@ -2,43 +2,42 @@
    HEADINGS / ELEMENT
    ========================================================================== */
 
-h1,
+h1 {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-primary);
+    line-height: auto;
+    letter-spacing: 5%;
+    font-weight: 700;
+}
 h2,
 h3,
 h4,
-h5,
-h6 {
+p,
+li {
     font-family: var(--font-secondary);
-    line-height: 1.1;
-    font-weight: bold;
-    margin: 0;
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    line-height: 1;
 }
 
 h2 {
     font-size: var(--font-size-h2);
+    line-height: auto;
+    font-weight: 700;
 }
 
 h3 {
     font-size: var(--font-size-h3);
+    line-height: auto;
 }
 
 h4 {
     font-size: var(--font-size-h4);
+    line-height: auto;
 }
 
-h5 {
-    font-size: var(--font-size-h5);
+p {
+    font-size: var(--font-size-p);
+    line-height: auto;
 }
-
-h6 {
-    font-size: var(--font-size-h6);
-}
-
-em {
-    font-style: italic;
+li {
+    font-size: var(--font-size-li);
+    line-height: auto;
 }

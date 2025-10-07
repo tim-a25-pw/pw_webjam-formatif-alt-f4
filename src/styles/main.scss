@@ -1,5 +1,5 @@
 //FONTS
-
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
 @import 'tools/cover';
@@ -31,3 +31,4 @@
 
 @import 'components/icons';
 @import 'components/header';
+@import 'components/categories';
