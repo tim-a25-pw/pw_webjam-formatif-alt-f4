@@ -1,0 +1,29 @@
+.produits_vedette {
+    background-color: var(--color-secondary);
+}
+.card_vedette {
+    .card__media {
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .card__content {
+        background-color: var(--color-white);
+        padding: var(--spacing-sm);
+        .price {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg {
+                stroke: var(--color-black);
+                fill: var(--color-CTA);
+            }
+        }
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+}

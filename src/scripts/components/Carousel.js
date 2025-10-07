@@ -38,7 +38,9 @@ export default class Caroussel {
       };
     }
     if ('slides' in this.element.dataset) {
-      this.options.slidesPerView = parseFloat(this.element.dataset.slides, 10) || this.options.slidesPerView;
+      this.options.slidesPerView =
+        parseFloat(this.element.dataset.slides, 10) ||
+        this.options.slidesPerView;
     }
   }
   init() {

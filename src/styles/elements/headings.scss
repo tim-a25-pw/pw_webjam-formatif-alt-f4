@@ -8,6 +8,7 @@ h1 {
     line-height: auto;
     letter-spacing: 5%;
     font-weight: 700;
+    margin: 0;
 }
 h2,
 h3,
@@ -15,6 +16,7 @@ h4,
 p,
 li {
     font-family: var(--font-secondary);
+    margin: 0;
 }
 
 h2 {
@@ -26,11 +28,13 @@ h2 {
 h3 {
     font-size: var(--font-size-h3);
     line-height: auto;
+    font-weight: 400;
 }
 
 h4 {
     font-size: var(--font-size-h4);
     line-height: auto;
+    font-weight: 400;
 }
 
 p {
