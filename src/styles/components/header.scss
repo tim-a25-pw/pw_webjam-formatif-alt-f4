@@ -5,6 +5,7 @@
 .header {
     --header-height: 100px;
     color: var(--color-black);
+    background-color: var(--color-secondary);
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -17,10 +18,14 @@
     .wrapper {
         display: flex;
         justify-content: space-between;
+        a {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &::before {
-        background-color: var(--color-bg-secondary);
+        background-color: var(--color-secondary);
         content: '';
         position: absolute;
         top: 0;
